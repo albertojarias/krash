@@ -11,7 +11,7 @@ package _4Classes
 abstract class TemplateAccount {
     val id = TemplateAccount.sequenceNext()
     var isActive = true
-    private var balance = 0.0
+    var balance = 0.0
     abstract val accountNumber: String
 
     fun deposit(amount: Double) { balance += amount }

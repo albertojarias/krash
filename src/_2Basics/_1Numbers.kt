@@ -3,7 +3,6 @@ package _2Basics
 fun main(args: Array<String>) {
     // Numbers: Int, Long, Short, Byte, Double, Float
 
-    // Int
     var counter = 10
     counter += 1
     println(counter.rem(3))

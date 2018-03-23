@@ -7,7 +7,6 @@ fun <T> asString(vararg items: T): String {
     return result.toString()
 }
 
-
 fun main(args: Array<String>) {
     println(args[0])
     val list = listOf(*args)

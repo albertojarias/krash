@@ -2,7 +2,7 @@ package _4Classes
 
 import java.time.LocalDate
 
-// Data classes, equals, destructuring
+// Data classes, equals, copy, destructuring
 data class Vehicle(val id: Int, var licensePlate: String, var ownerId: Int, val dateRegistered: LocalDate)
 
 fun main(args: Array<String>) {
