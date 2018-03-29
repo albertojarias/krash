@@ -1,12 +1,14 @@
 package _3Functions
 
-fun circleArea(radius: Double = 1.0) = 3.1415 * radius * radius
+@JvmOverloads fun circleArea(radius: Double = 1.0) = 3.1415 * radius * radius
 
 fun printHello(name: String) {
     println("Hello $name")
 }
 
 fun min(x: Int, y: Int) = if (x < y) x else y
+
+val topLevelProperty = 10
 
 fun main(args: Array<String>) {
     printHello("World")

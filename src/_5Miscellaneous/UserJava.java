@@ -1,9 +1,11 @@
 package _5Miscellaneous;
 
+import org.jetbrains.annotations.NotNull;
+
 public class UserJava {
 
     private int id;
-    private String name;
+    String name;
     private boolean activeFlag;
 
     public UserJava(int id, String name, boolean activeFlag) {
